@@ -1,0 +1,70 @@
+.site-logo{
+    width: 160px;
+    height: auto;
+}
+
+.site-div-1{
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: content-box;
+    max-width: none;
+    padding: 0 24px;
+}
+
+.line-border{
+    display: block;
+    margin: 0.5em auto;
+    border-style: inset;
+    border-width: 1px;
+    color: rgba(0,0,0,0.1);
+}
+
+.div-1-ul{
+    list-style-type: none;
+    border-width: 3px 0;
+    height: 54px;
+    margin: 0 10px;
+    padding: 0;
+    align-items: center;
+    display: inline-flex;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 13px;
+}
+
+
+.div-2-nav{
+    padding-right: 24px;
+    width: 675px;
+    height: 64px;
+    display: flex;
+}
+
+.site-div-2{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: content-box;
+    max-width: none;
+    padding: 0 24px;
+}
+
+.bt-1{
+    color: #4285F4;
+    background-color: #ffffff;
+    height: 44px;
+    margin: 0 10px;
+    padding: 0 24px;
+    font-size: 14px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.bt-2{
+    color: white;
+    background-color: #4285F4;
+    height: 44px;
+    margin: 0 10px;
+    padding: 0 24px;
+    font-size: 14px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
