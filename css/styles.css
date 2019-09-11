@@ -52,3 +52,9 @@
 .top-bar-2 .bt-start{
     height: 30px;
 }
+
+.img-background {
+    width: 300px;
+    top: 0;
+    right: 0;
+}
