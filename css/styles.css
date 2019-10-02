@@ -45,6 +45,10 @@ body{
 }
 
 @media screen and (max-width: 400px){
+    .menu-style {
+        display: none;
+    }
+
     .cloud-logo-div{
         display: inline-block;
         margin: 0;
@@ -204,8 +208,41 @@ body{
     }
 }
 
+.menu-style {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.menu-style ul li {
+    display: inline;
+    margin-right: 20px;
+    font: 400 14px/22px Google Sans,sans-serif;
+}
+
 #hamburguer-menu {
     display: none;
+}
+
+.search-style {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.search-style:hover {
+    background-color: rgba(240, 238, 238, 0.616);
+}
+
+.idioma {
+    border: none;
+    font: 400 14px/22px Google Sans,sans-serif;
+    outline: none;
+    padding: 10px 10px;
+}
+
+.idioma:hover {
+    background-color: rgba(240, 238, 238, 0.616);    
 }
 
 .cloud-logo-div{
@@ -374,6 +411,7 @@ main{
     width: 40%;
 }
 .video {
+    width: 0;
     margin-left: auto;
     margin-right: auto;
 }
