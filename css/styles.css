@@ -44,169 +44,7 @@ body{
     margin: 0;
 }
 
-@media screen and (max-width: 400px){
-    .menu-style {
-        display: none;
-    }
 
-    .cloud-logo-div{
-        display: inline-block;
-        margin: 0;
-    }
-
-    .cloud-logo{
-        width: 112px;
-        height: 17px;
-        margin: 2px 0;
-    }
-    .top-bar-1{
-        position: relative;
-        display: flex;
-        width: 100%;
-        height: 58px;
-        align-items: center;
-        padding: 0 16px;
-        box-sizing: content-box;
-        max-width: none;
-        border-bottom: 1px solid rgba(0,0,0,.1);
-    }
-    .search-div{
-        display: flex;
-        margin: 12px 0;
-        padding: 0 8px;
-        justify-content: center;
-        text-align: center;
-        vertical-align: center;
-        right: 0;
-    }
-    .bt-search{
-        font: 14px Google Sans,sans-serif;
-        display: flex;
-        padding: 9px 0 9px 8px;
-    }
-    .top-bar-2{
-        position: relative;
-        display: flex;
-        align-items: center;
-        padding: 0 16px;
-        width: 100%;
-        border-bottom: 1px solid rgba(0,0,0,.1);
-        height: 58px;
-        box-shadow: 0px 4px rgba(0,0,0,.05);
-    }
-
-    .button-row{
-        display: inline-block;
-    }
-
-    .bt-contact{
-        position: relative;
-        width: auto;
-        height: 36px;
-        margin: 11px 0 11px 10px;
-        padding: 0 16px;
-        display: flex;
-        align-items: center;
-        border: 4px solid #4285f4;
-        border-radius: 4px;
-        background-color: #4285f4;
-        color: #fff;
-        box-shadow: none;
-        justify-content: center;
-        letter-spacing: .5px;
-        font: 400 14px/22px Google Sans,sans-serif;
-        text-transform: none;
-    }
-
-    .bt-start{
-        position: relative;
-        width: auto;
-        height: 36px;
-        margin: 11px 0 11px 10px;
-        padding: 0 16px;
-        display: none;
-        align-items: center;
-        border: 4px solid #4285f4;
-        border-radius: 4px;
-        background-color: #4285f4;
-        color: #fff;
-        box-shadow: none;
-        justify-content: center;
-        letter-spacing: .5px;
-        font: 400 14px/22px Google Sans,sans-serif;
-        text-transform: none;
-    }
-
-    .img-background {
-        position: absolute;
-        width: 85px;
-        height: 57px;
-        right: 0;
-    }
-
-    .corpo {
-        width: 100%;
-        height: 320px;
-        display: block;
-        justify-content: center;
-        text-align: center;
-        line-height: 44px;
-        letter-spacing: 0;
-        padding: 80px  0 0;
-    }
-
-    .corpo span{
-        font: 36px Google Sans,sans-serif;
-    }
-
-    main{
-        width: 100%;
-        height: 400px;
-        display: block;
-    }
-
-    .button-1-corpo{
-        position: relative;
-        width: auto;
-        height: 36px;
-        margin: 11px 0 11px 10px;
-        padding: 0 16px;
-        display: flex;
-        align-items: center;
-        border: 4px solid #4285f4;
-        border-radius: 4px;
-        background-color: #4285f4;
-        color: #fff;
-        box-shadow: none;
-        justify-content: center;
-        letter-spacing: .5px;
-        font: 400 14px/22px Google Sans,sans-serif;
-        text-transform: none;
-    }
-
-    .button-2-corpo{
-        position: relative;
-        width: auto;
-        height: 36px;
-        margin: 11px 0 11px 10px;
-        padding: 0 16px;
-        display: flex;
-        align-items: center;
-        border: 1px solid rgba(0,0,0,.1);
-        border-radius: 4px;
-        background-color: #fff;
-        color: #4285f4;
-        box-shadow: none;
-        justify-content: center;
-        letter-spacing: .5px;
-        font: 400 14px/22px Google Sans,sans-serif;
-        text-transform: none;
-    }
-    .video {
-        width: 500px;
-        height: 400px;
-    }
-}
 
 .menu-style {
     padding:0px;
@@ -368,7 +206,6 @@ main{
 }
 
 .button-1-corpo{
-    position: relative;
     width: auto;
     height: 36px;
     margin: 11px 0 11px 10px;
@@ -383,19 +220,13 @@ main{
     letter-spacing: .5px;
     font: 400 14px/22px Google Sans,sans-serif;
     text-transform: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
 }
 
 .button-2-corpo{
-    position: relative;
     width: auto;
     height: 36px;
     margin: 11px 0 11px 10px;
     padding: 0 16px;
-    display: flex;
     align-items: center;
     border: 1px solid rgba(0,0,0,.1);
     border-radius: 4px;
@@ -406,13 +237,20 @@ main{
     letter-spacing: .5px;
     font: 400 14px/22px Google Sans,sans-serif;
     text-transform: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
 }
 .video {
-    width: 0;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: red;
+    width: 50px;
+    height: 50px;
 }
 
+.botoes-corpo {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.botoes-corpo ul li {
+    display: inline;
+    margin-right: 20px;
+}
